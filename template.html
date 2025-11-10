@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Request for Re-evaluation – SIH</title>
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 1.7;
+        color: #333;
+        background-color: #f9f9f9;
+        margin: 0;
+        padding: 20px;
+      }
+      .container {
+        max-width: 680px;
+        margin: auto;
+        background: #ffffff;
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        border: 1px solid #eaeaea;
+      }
+      h1 {
+        color: #2c3e50;
+        font-size: 22px;
+        margin-top: 0;
+      }
+      p {
+        margin: 16px 0;
+      }
+      .highlight {
+        background-color: #fff8e1;
+        padding: 12px;
+        border-left: 4px solid #ffca28;
+        margin: 20px 0;
+        font-style: italic;
+      }
+      .signature {
+        margin-top: 30px;
+        padding-top: 20px;
+        border-top: 1px solid #eee;
+        font-size: 15px;
+      }
+      .contact-info {
+        margin: 8px 0;
+        color: #555;
+      }
+      .link {
+        color: #1a73e8;
+        text-decoration: none;
+        font-weight: 500;
+      }
+      .link:hover {
+        text-decoration: underline;
+      }
+      ul {
+        margin: 16px 0;
+        padding-left: 20px;
+      }
+      li {
+        margin: 6px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <p>Dear SIH Organizing Committee,</p>
+
+      <p>I hope you are doing well.</p>
+
+      <p>
+        I am writing this email with deep concern and a heavy heart regarding
+        the evaluation process of our project submitted under
+        <strong>Problem Statement ID: {{PS_ID}}</strong>.
+      </p>
+
+      <p>
+        It has come to my notice that many of the evaluators have been
+        conducting separate “judgment and PPT checking” sessions for money.
+        Unfortunately, it appears that many of the teams selected for the next
+        round participated in those sessions. As participants who truly believe
+        in the fair and transparent spirit of SIH, this situation feels very
+        disheartening.
+      </p>
+
+      <p>
+        To understand the matter better, I reviewed the results and reached out
+        to one of the selected team leaders. After viewing their PPT, I noticed
+        that their solution focuses on adjusting solar panels according to
+        sunlight presence — an idea that is already quite common.
+      </p>
+
+      <div class="highlight">
+        <p>
+          <strong
+            >In contrast, our project presents a unique and socially impactful
+            approach:</strong
+          >
+        </p>
+        <ul>
+          <li>
+            Developing
+            <strong>energy-harvesting panels made from recycled plastic</strong>
+            embedded with piezoelectric sensors.
+          </li>
+          <li>
+            Capable of
+            <strong
+              >generating and storing electricity from mechanical energy</strong
+            >.
+          </li>
+          <li>Can <strong>charge mobile devices</strong> on the go.</li>
+          <li>
+            Promotes
+            <strong>sustainability by reducing plastic waste</strong> and
+            creating green energy.
+          </li>
+        </ul>
+      </div>
+
+      <p>
+        Our team has worked tirelessly on this idea and has showcased it in
+        <strong>four hackathons, winning three of them</strong>, where it was
+        highly appreciated by judges and experts for its potential to create
+        sustainable energy solutions from waste materials. We have invested our
+        heart, creativity, and time into this project because we genuinely
+        believe in its potential to make a positive impact on society.
+      </p>
+
+      <p>
+        I am attaching our <strong>PPT</strong> and including the
+        <strong>YouTube demo video link</strong> below for your kind review:
+      </p>
+
+      <ul>
+        <li>
+          <strong>YouTube Video:</strong>
+          <a href="{{YOUTUBE_LINK}}" class="link" target="_blank"
+            >{{YOUTUBE_LINK}}</a
+          >
+        </li>
+        <li><strong>PPT:</strong> Attached below</li>
+      </ul>
+
+      <p>
+        I sincerely request a <strong>re-evaluation of our idea</strong> so that
+        our efforts can be assessed fairly and transparently. We deeply respect
+        the values that SIH stands for and truly hope that merit and innovation
+        will remain at the core of this esteemed platform.
+      </p>
+
+      <p>
+        Thank you for taking the time to read my message and understand our
+        concern. I look forward to your kind response.
+      </p>
+
+      <div class="signature">
+        <p>
+          Warm regards,<br />
+          <strong>{{TEAM_LEADER_NAME}}</strong><br />
+          Team Leader – <em>{{TEAM_MEMBER_NAME}}</em><br />
+          <span class="contact-info">Team ID: <strong>{{TEAM_ID}}</strong></span
+          ><br />
+          <span class="contact-info"
+            >Problem Statement ID: <strong>{{PS_ID}}</strong></span
+          ><br />
+          <span class="contact-info"
+            >Email: <a href="mailto:{{EMAIL}}" class="link">{{EMAIL}}</a></span
+          ><br />
+          <span class="contact-info"
+            >Contact: <strong>{{CONTACT}}</strong></span
+          >
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
